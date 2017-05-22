@@ -1,0 +1,14 @@
+{
+    "name": "zxwni/demo",
+    "description": "composer test project",
+    "type": "project",
+    "require": {},
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "zxw",
+            "email": "649835464@qq.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
