@@ -2,7 +2,9 @@
     "name": "zxwni/demo",
     "description": "composer test project",
     "type": "project",
-    "require": {},
+    "require": {
+        "gregwar/captcha": "^1.1"
+    },
     "license": "MIT",
     "authors": [
         {
@@ -10,5 +12,20 @@
             "email": "649835464@qq.com"
         }
     ],
-    "minimum-stability": "dev"
+    "minimum-stability": "dev",
+    "repositories": {
+        "packagist": {
+            "type": "composer",
+            "url": "https://packagist.phpcomposer.com"
+        }
+    },
+    "autoload":{
+        "files":[
+            "core/function.php"
+        ],
+        "psr-4":{
+            "core\\":"core",
+            "web\\":"web"
+        }
+    }
 }
